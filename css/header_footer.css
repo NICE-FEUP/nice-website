@@ -1,0 +1,22 @@
+
+.header {
+  background-color: #273333;
+  opacity: 0.9;
+  color: #FCFCFC;
+} 
+
+.logo-anchor {
+
+}
+
+.logo-img {
+  width: 140px;
+  background-color: #EEEEEE;
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: #273333;
+  color: #FCFCFC;
+  text-align: center;
+} 
