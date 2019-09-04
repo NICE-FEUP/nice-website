@@ -1,8 +1,21 @@
+:root{
+  --orange-ban: #FF751F;
+  --dark_orange-ban: rgb(194, 81, 11);
+  --light_black: #273333;
+  --taint_white: #FCFCFC;
+  --light_grey: rgb(199, 199, 199);
+}
+
+body {
+  font-family: 'Noto Sans TC',sans-serif;
+  background-color: var(--taint_white);
+}
 
 .header {
-  background-color: #273333;
-  opacity: 0.9;
-  color: #FCFCFC;
+  /* background-color: var(--light_black); */  
+  background-image: linear-gradient(var(--orange-ban), var(--dark_orange-ban));
+  /* opacity: 0.9; */
+  color: var(--taint_white);
 } 
 
 .logo-anchor {
@@ -16,7 +29,7 @@
 }
 
 .footer {
-  background-color: #273333;
-  color: #FCFCFC;
+  background-color: var(--light_black);
+  color: var(--taint_white);
   text-align: center;
 } 

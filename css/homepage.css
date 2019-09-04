@@ -1,0 +1,23 @@
+/* font-family: 'Noto Sans TC',sans-serif;
+   font-family: 'Roboto',sans-serif;
+*/
+
+.text-block {
+  margin: 3em auto;
+}
+
+.text-block:nth-child(even) {
+  background-color: var(--light_grey);
+}
+
+.text-title {
+  margin: 5px auto;
+  font-size: 1.7em;
+  font-weight: bold;
+}
+
+.text-block span{
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+}
