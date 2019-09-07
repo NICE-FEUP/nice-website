@@ -3,7 +3,13 @@
   --dark_orange-ban: rgb(194, 81, 11);
   --light_black: #273333;
   --taint_white: #FCFCFC;
-  --light_grey: rgb(199, 199, 199);
+  --light_grey: rgb(224, 224, 224);
+  --med_grey: rgb(184, 184, 184);
+  --dark_grey: rgb(160, 160, 160);
+
+  --light_blue: rgb(91, 176, 247);
+  --med_blue: rgb(72, 143, 201);
+  --hard_blue: #22347c;
 }
 
 body {
@@ -11,21 +17,32 @@ body {
   background-color: var(--taint_white);
 }
 
-.header {
-  /* background-color: var(--light_black); */  
-  background-image: linear-gradient(var(--orange-ban), var(--dark_orange-ban));
-  /* opacity: 0.9; */
+.header {  
+  /* background-image: linear-gradient(var(--orange-ban), var(--dark_orange-ban)); */
+
+  /* background-image: linear-gradient(var(--light_grey), var(--med_grey)); */
+
+  background-color: var(--hard_blue);
+
   color: var(--taint_white);
+  padding: 0 !important;
+  display: block !important;
 } 
-
-.logo-anchor {
-
-}
 
 .logo-img {
   width: 140px;
-  background-color: #EEEEEE;
   border-radius: 5px;
+}
+
+.logo-container {
+  padding: 8px 8px;
+  width: auto;
+}
+
+.logo-banner {
+  height: 100%;
+  display: block;
+  color: red;
 }
 
 .footer {
