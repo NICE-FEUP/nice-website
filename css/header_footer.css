@@ -57,3 +57,51 @@ body {
   color: var(--taint_white);
   text-align: center;
 } 
+
+
+/* MEDIA QUERIES */
+
+/* Above Small */
+@media (min-width: 576px) {
+
+}
+
+/* Above Medium */
+@media (min-width: 768px) {
+
+}
+
+/* Above Large */
+@media (min-width: 992px) {
+  
+}
+
+/* Above Extra Large */
+@media (min-width: 1200px) {
+
+}
+
+/*////////////////////////////////////////////////////*/
+
+/* Below Small */
+@media (max-width: 575.98px) {
+
+}
+
+/* Below Medium */
+@media (max-width: 767.98px) {
+  .logo-img {
+    width: 80px;
+  }
+}
+
+/* Below Large */
+@media (max-width: 991.98px) {
+  
+}
+
+/* Below Extra Large */
+@media (max-width: 1199.98px) {
+
+}
+
