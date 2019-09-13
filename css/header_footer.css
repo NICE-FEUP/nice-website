@@ -58,6 +58,29 @@ body {
   text-align: center;
 } 
 
+.footer-logo {
+  width: 26px;
+  padding-right: 5px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: var(--taint_white);
+  display: block;
+  padding: 4px 0px;
+}
+
+.footer-link:hover {
+  text-decoration: none;
+  color: var(--light_grey);
+  cursor: pointer;
+}
+
+.footer-line {
+  height: 5px;
+  background-color: var(--taint_white);
+  max-width: 70%;
+}
 
 /* MEDIA QUERIES */
 
