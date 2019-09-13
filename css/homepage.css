@@ -28,7 +28,30 @@
   font-weight: bold;
 }
 
+#icons_site > .row 
+{
+  text-align:center;
+}
 
+/* gozo stuff */
+#mexican_nando:hover 
+{
+  opacity: 0;
+}
+
+#surprise_cat 
+{
+  width: 256px;
+  height: 256px;
+  position: absolute;
+  left: 22%;
+  opacity: 0;
+}
+
+#surprise_cat:hover 
+{
+  opacity: 1;
+}
 
 /* MEDIA QUERIES */
 
