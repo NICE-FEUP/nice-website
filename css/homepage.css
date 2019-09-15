@@ -2,6 +2,8 @@
    font-family: 'Roboto',sans-serif;
 */
 
+/* Main page */
+
 .page-container {
   background-color: var(--light_grey);
   /* background-color: var(--light_blue); */
@@ -15,7 +17,6 @@
 
 .text-block:nth-child(even) {
   background-color: var(--med_grey);
-  /* background-color: var(--med_blue); */
 }
 
 .text-title {
@@ -28,10 +29,24 @@
   font-weight: bold;
 }
 
-#icons_site > .row 
-{
-  text-align:center;
+
+/* Values */
+
+#icons_site > .row {
+  text-align: center;
 }
+
+.values-icon {
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.values-div {
+  margin: 3px 0px;
+}
+
+
 
 /* gozo stuff */
 #mexican_nando:hover 
@@ -52,6 +67,7 @@
 {
   opacity: 1;
 }
+
 
 /* MEDIA QUERIES */
 
