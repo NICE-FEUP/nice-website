@@ -29,6 +29,32 @@
   font-weight: bold;
 }
 
+/* Team Picture */
+
+.team-img-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.team-img-scroll-div {
+  position: absolute;
+  top: 87%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.team-img-scroll-icon {
+  max-width: 140px;
+}
+
+#page-start {
+  display: block;
+  position: relative;
+  top: -100px;
+  visibility: hidden;
+}
+
 
 /* Values */
 

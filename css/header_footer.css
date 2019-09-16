@@ -12,6 +12,10 @@
   --hard_blue: #22347c;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Noto Sans TC',sans-serif;
   background-image: url("../icons/background.png");
