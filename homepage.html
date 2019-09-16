@@ -22,6 +22,47 @@
 
   <body class="d-flex flex-column h-100">
 
+    <!-- MODALS START -->
+
+    <!--
+      (PARA O HENRIQUE: Este é basicamente o modal default de boostrap, modifica como quiseres e depois copia e faz 4
+      Não te esqueças que tem de funcionar em mobile. Vou deixar os textos no chat do FB para testares com texto mesmo na descrição
+      Os ID que tens que por são values-modal?, em que o "?" vai de 1 a 4)
+    --> 
+
+
+    <!-- Modal 1 -->
+
+    <div class="modal fade" id="values-modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Descrição...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <!-- Modal 2 -->
+
+  
+    <!-- Modal 3 -->
+
+
+    <!-- Modal 4 -->
+
+
+    <!-- MODALS END -->
 
 
     <div class="navbar navbar-right shadow-sm sticky-top header">
@@ -30,9 +71,7 @@
         <a class="logo-anchor" href="./homepage.html"><img class="logo-img" src="./icons/logo.png" alt="Logo"></a>     
       </div>
 
-      <div id="logo-triangle" class="logo-banner">
-
-      </div>
+      <div id="logo-triangle" class="logo-banner"></div>
 
     </div>
 
@@ -69,21 +108,32 @@
   
       <div class="container-fluid text-block" id="icons_site">
         <div class="row">
-          <div class="col col-md-6 border values-div">
-            <img class="values-icon d-block" src="./icons/multi_dis.png" alt="Value Icon">
-            <span>Multidisciplinaridade</span>
+          <div class="col col-md-6 border border-danger values-div">
+            <button type="button" class="values-button" data-toggle="modal" data-target="#values-modal1">
+              <img class="values-icon d-block" src="./icons/multi_dis.png" alt="Value Icon">
+              <span class="values-label">MULTIDISCIPLINARIEDADE</span>
+            </button>
           </div>
-          <div class="col col-md-6 border values-div">
-            <img class="values-icon" src="./icons/multi_dis.png" alt="Value Icon">
+          <div class="col col-md-6 border border-danger values-div">
+            <button type="button" class="values-button" data-toggle="modal" data-target="#values-modal2">
+              <img class="values-icon d-block" src="./icons/multi_dis.png" alt="Value Icon">
+              <span class="values-label">INVESTIGAÇÃO</span>
+            </button>
           </div>
         </div>
   
         <div class="row">
-          <div class="col col-md-6 border values-div">
-            <img class="values-icon" src="./icons/multi_dis.png" alt="Value Icon">
+          <div class="col col-md-6 border border-danger values-div">
+            <button type="button" class="values-button" data-toggle="modal" data-target="#values-modal3">
+              <img class="values-icon d-block" src="./icons/multi_dis.png" alt="Value Icon">
+              <span class="values-label">COOPERAÇÃO EMPRESARIAL</span>
+            </button>
           </div>
-          <div class="col col-md-6 border values-div">
-            <img class="values-icon" src="./icons/multi_dis.png" alt="Value Icon">
+          <div class="col col-md-6 border border-danger values-div">
+            <button type="button" class="values-button" data-toggle="modal" data-target="#values-modal4">
+              <img class="values-icon d-block" src="./icons/multi_dis.png" alt="Value Icon">
+              <span class="values-label">SOFTSKILLS/HARDSKILLS</span>
+            </button>
           </div>
         </div>
 

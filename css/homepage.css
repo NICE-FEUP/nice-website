@@ -40,33 +40,33 @@
   max-width: 250px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10px;
 }
 
 .values-div {
-  margin: 3px 0px;
+  margin: 3px 0px 28px 0px;
 }
 
+.values-button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: none;
 
-
-/* gozo stuff */
-#mexican_nando:hover 
-{
-  opacity: 0;
 }
 
-#surprise_cat 
-{
-  width: 256px;
-  height: 256px;
-  position: absolute;
-  left: 22%;
-  opacity: 0;
+.values-button:focus {
+  outline: none !important;
 }
 
-#surprise_cat:hover 
-{
-  opacity: 1;
-}
+.values-label{
+  font-size: 1.2em;
+  font-weight: bold;
+} 
+
 
 
 /* MEDIA QUERIES */
