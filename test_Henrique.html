@@ -22,6 +22,112 @@
 
   <body class="d-flex flex-column h-100">
 
+    <!-- MODALS START -->
+
+    <!--
+      (PARA O HENRIQUE: Este é basicamente o modal default de boostrap, modifica como quiseres e depois copia e faz 4
+      Não te esqueças que tem de funcionar em mobile. Vou deixar os textos no chat do FB para testares com texto mesmo na descrição
+      Os ID que tens que por são values-modal?, em que o "?" vai de 1 a 4)
+    --> 
+
+
+    <!-- Modal 1 -->
+
+    <div class="modal fade" id="values-modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Multidisciplinariedade</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            No mundo tecnológico quase tudo é criado através da articulação de diferentes áreas do conhecimento,
+            pelo que conhecimento genérico por parte de outros domínios constitui uma competência essencial em qualquer engenheiro. 
+            Esse mesmo conhecimento, por sua vez, é adquirido através do intercâmbio de ideias que ocorre no desenvolvimento dos projetos. 
+            Por essa mesma razão, garantir a multidisciplinaridade dos projetos é um dos focos deste núcleo.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Modal 2 -->
+
+    <div class="modal fade" id="values-modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Investigação</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Muitas vezes existem muitos temas que são amplamente discutidos em seio empresarial e na comunidade científica,
+            mas que simultaneamente são pouco lecionados no seio de aulas, como é o caso das energias renováveis,
+            mobilidade elétrica ou indústria 4.0. 
+            Com os nossos projetos pretendemos dar a oportunidade de desenvolver essas temáticas.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Modal 3 -->
+
+    <div class="modal fade" id="values-modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Cooperação Empresarial</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            No nosso entender consideramos que um Engenheiro tem como desafio responder aos desafios da sociedade. 
+            Por essa mesma razão, consideramos que o desenvolvimento de temáticas como as energias renováveis, 
+            mobilidade elétrica ou indústria 4.0, apenas fazem sentido e satisfazem os estudantes se forem realizados em
+            meio empresarial. 
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 4 -->
+
+    <div class="modal fade" id="values-modal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Softskills/Hardskills</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Aquisição de competências como trabalho em equipa, comunicação, capacidade de decisão,
+            criatividade e simultaneamente mais conhecimentos técnicos, 
+            pois na nossa visão elas são complementares uma à outra, e o seu desenvolvimento deve ser feito em paralelo. 
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODALS END -->
 
 
     <div class="navbar navbar-right shadow-sm sticky-top header">
@@ -30,14 +136,19 @@
         <a class="logo-anchor" href="./homepage.html"><img class="logo-img" src="./icons/logo.png" alt="Logo"></a>     
       </div>
 
-      <div id="logo-triangle" class="logo-banner">
+      <div id="logo-triangle" class="logo-banner"></div>
 
-      </div>
+    </div>
 
+
+    <div class="team-img-container">
+      <img class="team-img mw-100" src="./images/team-pic2.png" alt="Team Picture">
+      <a href="#page-start" class="team-img-scroll-div"><img class="team-img-scroll-icon" src="./icons/scroll_white.png"></a>
     </div>
 
     <div class="container page-container">
 
+      <a id="page-start"></a>
       <div class="container-fluid text-block">
         <div class="text-title text-center">
           <span>
@@ -47,8 +158,7 @@
 
         <div class="text-content text-center">
           <span>
-            Somos o Núcleo de Investigação e Cooperação Empresarial da Faculdade de Engenharia da Universidade do Porto.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
+            	O Núcleo de Investigação e Cooperação Empresarial é um núcleo fundado por seis alunos dos cursos de Engenharia Mecânica, Eletrotécnica e Computadores e Informática, cujo objetivo visa a inserção de alunos em projetos desenvolvidos em seio empresarial.  
           </span>
         </div>
       </div>
@@ -62,52 +172,48 @@
 
         <div class="text-content text-center">
           <span>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Usar os problemas reais das empresas para aprendizagem e aquisição de competências -  em grande e destacado
+              A maior parte dos projetos desenvolvidos pelos estudantes da FEUP em seio empresarial são realizados com start-ups, o que faz com que eles se restrinjam a um conjunto muito restrito de áreas do conhecimento. Com este núcleo, pretendemos estender essa oportunidade a todas as vertentes de engenharia lecionadas na nossa faculdade, oferecendo assim a primeira experiência profissional que em termos práticos será equivalente a um estágio, mas com a duração de um ano e em paralelo com as aulas, permitindo deste modo um intercâmbio de conhecimentos entre Faculdade e mundo empresarial. Estes projetos contarão igualmente com a colaboração de docentes.            
           </span>
         </div>
       </div>
   
-      <div class="container-fluid text-block">
-        <div class="text-title text-center">
-          <span>O que Valorizamos?</span>
-        </div>
-
-        <div class="text-enum">
-          <ul>
-            <li>Multidisciplinaridade</li>
-            <li>Cooperação Empresarial</li>
-            <li>...</li>
-          </ul>
-        </div>
-      </div>
-
+      <!-- GRID ICONS -->
       <div class="container-fluid text-block" id="icons_site">
-        <!-- TODO: VALORES (Icons using bootstrap grid) -->
-
-        <div class="row" >
-          <div class="col col-md-6 border">
-            <img src="images/fernandos_ombrero.png" alt="Mexican nando just got out of jail" id="mexican_nando">
-            <img src="images/cute_cat.jpg" alt="Surprise :)" id="surprise_cat">
-          </div>
-          <div class="col col-md-6 border">
-            <img src="images/fernandos_ombrero.png" alt="Mexican nando just got out of jail" id="mexican_nando">
-            <img src="images/cute_cat2.jpg" alt="Surprise :)" id="surprise_cat">
-          </div>
-        </div>
-
         <div class="row">
-          <div class="col col-md-6 border">
-            <img src="images/fernandos_ombrero.png" alt="Mexican nando just got out of jail" id="mexican_nando">
-            <img src="images/cute_cat2.jpg" alt="Surprise :)" id="surprise_cat">
+          <div class="col col-md-6 border border-danger values-div">
+            <button type="button" class="values-button" data-toggle="modal" data-target="#values-modal1">
+              <img class="values-icon d-block" src="./icons/multi_dis.png" alt="Value Icon">
+              <span class="values-label">MULTIDISCIPLINARIEDADE</span>
+            </button>
           </div>
-          <div class="col col-md-6 border">
-            <img src="images/fernandos_ombrero.png" alt="Mexican nando just got out of jail" id="mexican_nando">
-            <img src="images/cute_cat.jpg" alt="Surprise :)" id="surprise_cat">
+          <div class="col col-md-6 border border-danger values-div">
+            <button type="button" class="values-button" data-toggle="modal" data-target="#values-modal2">
+              <img class="values-icon d-block" src="./icons/multi_dis.png" alt="Value Icon">
+              <span class="values-label">INVESTIGAÇÃO</span>
+            </button>
           </div>
         </div>
+  
+        <div class="row">
+          <div class="col col-md-6 border border-danger values-div">
+            <button type="button" class="values-button" data-toggle="modal" data-target="#values-modal3">
+              <img class="values-icon d-block" src="./icons/multi_dis.png" alt="Value Icon">
+              <span class="values-label">COOPERAÇÃO EMPRESARIAL</span>
+            </button>
+          </div>
+          <div class="col col-md-6 border border-danger values-div">
+            <button type="button" class="values-button" data-toggle="modal" data-target="#values-modal4">
+              <img class="values-icon d-block" src="./icons/multi_dis.png" alt="Value Icon">
+              <span class="values-label">SOFTSKILLS/HARDSKILLS</span>
+            </button>
+          </div>
+        </div>
+
 
       </div>
 
+      <!-- END GRID ICONS -->
 
       <!-- Simulated full page -->
       <div>
@@ -117,10 +223,57 @@
 
     </div>
 
-
+    <!-- Footer -->
     <footer class="mt-auto py-3 footer">
       <div class="container">
-        <span>NICE - FEUP &copy; 2019</span>
+        <div class="row">
+
+          <div class="col-md">
+            <div class="row align-items-center h-100">
+              <div class="col-md">
+                <a class="footer-link" href="TODO"><img class="footer-logo" src="./icons/fb-icon.png" alt="Facebook">
+                  <span>facebook.com/TODO</span>
+                </a>
+                <a class="footer-link" href="TODO"><img class="footer-logo" src="./icons/fb-icon.png" alt="LinkedIn">
+                  <span>linkedin.com/TODO</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md d-block d-md-none footer-line align-self-center my-3 mx-auto"></div>
+          
+          <div class="col-md">
+            <div class="row align-items-center h-100">
+              <div class="col-md">
+                  <span>NICE - FEUP &copy; 2019</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md d-block d-md-none footer-line align-self-center my-3 mx-auto"></div>
+         
+          <div class="col-md">
+            <div class="row align-items-center h-100">
+              <div class="col-md">
+                <a class="footer-link" href="TODO"><img class="footer-logo" src="./icons/fb-icon.png" alt="Address">
+                  <span>Rua Dr. Roberto Frias s/n, 4200-465 Porto</span>
+                </a>
+                <a class="footer-link" href="TODO"><img class="footer-logo" src="./icons/fb-icon.png" alt="Email">
+                  <!-- TODO: Trocar para novo mail -->
+                  <span>geral.geste@gmail.com</span>
+                </a>
+             </div>
+          </div>
+
+
+
+          </div>
+
+        </div>
+        
+        
+        
       </div>
     </footer>
 

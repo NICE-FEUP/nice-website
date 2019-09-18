@@ -55,12 +55,58 @@
   visibility: hidden;
 }
 
+/* Models */
+/*
+--orange-ban: #FF751F;
+TODO: Check
+Sugiro depois uma ban para a cor usada aqui como no exemplo em cima que esta no header_footer.css
+*/
+#values-modal1 .modal-body, #values-modal2 .modal-body, #values-modal3 .modal-body, #values-modal4 .modal-body
+{
+  background-color: rgb(255, 247, 242);
+}
+
+#values-modal1 .modal-header, #values-modal2 .modal-header, #values-modal3 .modal-header, #values-modal4 .modal-header,
+#values-modal1 .modal-footer, #values-modal2 .modal-footer, #values-modal3 .modal-footer, #values-modal4 .modal-footer {
+  
+  background-color: rgb(255, 135, 60);
+  
+}
+
+#values-modal1 .modal-header h5 {
+  /*color: var(--taint_white);*/
+}
+
+#values-modal1 .modal-footer button {
+  /*background-color: var(--dark_grey);*/
+}
 
 /* Values */
 
 #icons_site > .row {
   text-align: center;
 }
+
+/*Experiments */
+#icons_site button img{
+  width: 90%;
+  height: 90%;
+  transition: 0.75s;
+}
+
+/* crescimento de cerca de 10% */
+#icons_site button img:hover {
+  width: 111%;
+  height: 111%;
+}
+
+#icons_site button:hover {
+  color: black;
+  font-size: 120%;
+  transition:0.75s;
+}
+
+/*Exp end */
 
 .values-icon {
   max-width: 250px;
